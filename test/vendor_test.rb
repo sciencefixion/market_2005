@@ -16,7 +16,6 @@ class ItemTest < Minitest::Test
   end
 
   def test_it_has_attributes
-    skip
     expected = {}
 
     assert_equal "Rocky Mountain Fresh", @vendor.name

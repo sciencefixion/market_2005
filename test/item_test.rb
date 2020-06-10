@@ -14,7 +14,6 @@ class ItemTest < Minitest::Test
   end
 
   def test_it_has_attributes
-
     assert_equal "Tomato", @item2.name
     assert_equal 0.50, @item2.price
   end
