@@ -27,7 +27,7 @@ class ItemTest < Minitest::Test
   end
 
   def test_it_can_stock
-    skip
+    
     @vendor.stock(@item1, 30)
 
     expected = {@item1 => 30}
