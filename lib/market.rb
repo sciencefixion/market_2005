@@ -18,9 +18,10 @@ class Market
   def vendors_that_sell(item)
     vendors_that_sell = []
     @vendors.each do |vendor|
-      # require 'pry'; binding.pry
       vendors_that_sell << vendor if vendor.inventory.include?(item)
     end
     vendors_that_sell
   end
+
+  
 end
