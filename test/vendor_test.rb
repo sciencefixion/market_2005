@@ -23,7 +23,6 @@ class ItemTest < Minitest::Test
   end
 
   def test_it_can_check_stock
-    skip
     assert_equal 0, @vendor.check_stock(@item1)
   end
 
